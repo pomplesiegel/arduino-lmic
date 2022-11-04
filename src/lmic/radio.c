@@ -587,7 +587,7 @@ static void configChannel () {
 
 static void configPower () {
     // our input paramter -- might be different than LMIC.txpow!
-    s1_t const req_pw = (s1_t)LMIC.radio_txpow;
+    s1_t const req_pw = 11;
     // the effective power
     s1_t eff_pw;
     // the policy; we're going to compute this.
