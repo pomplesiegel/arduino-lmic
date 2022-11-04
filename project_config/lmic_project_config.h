@@ -8,3 +8,4 @@
 //#define CFG_in866 1
 #define CFG_sx1276_radio 1
 //#define LMIC_USE_INTERRUPTS
+#define LMIC_ENABLE_arbitrary_clock_error 1
